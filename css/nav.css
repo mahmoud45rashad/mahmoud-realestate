@@ -460,7 +460,16 @@ position: absolute;
         font-size: 20px;
     }
   }
+  @media (max-width:992px)  {
+   .box .img:hover img{
+        transform: none;
+    }
 
+    .box .img{
+        transition: 0s;
+    }
+
+}
   @media (max-width:940px)  {
     .box .icon span{
         font-size: 13.5px;
@@ -720,7 +729,7 @@ position: absolute;
     width: 105%;
     overflow: hidden;
 }
-.popular-img:hover img,.box .img:hover img{
+.popular-img:hover img{
     transform: scale(1.2);
 }
  .popular-img{
@@ -748,10 +757,14 @@ position: absolute;
     left: 30%;
     z-index: 10000;
 }
-@media (max-width:900px)  {
-    .popular-img:hover img ,.box .img:hover img{
+@media (max-width:992px)  {
+    .popular-img:hover img {
         transform: none;
     }
+
+    .popular-img img{
+        transition: 0s;
+    } 
 
 }
 
