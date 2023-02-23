@@ -749,7 +749,7 @@ position: absolute;
     z-index: 10000;
 }
 @media (max-width:900px)  {
-    .popular-img:hover img{
+    .popular-img:hover img ,.box .img:hover img{
         transform: none;
     }
 
